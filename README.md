@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # RT_Thread-ST7735S
-=======
+
 # 基于RT-Thread 驱动ST7735S 1.8寸TFT 显示屏
 ---
 **这是基于RT-Thread驱动ST7735S 的驱动**<br>
@@ -55,7 +55,7 @@ int main(void)
 ```
 ---
 ## 4. 补充
-**至于rtthread的配置SPI的内容，网上都有教程[RT_Thread使用SPI设备]([https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA](https://blog.csdn.net/tigerots/article/details/107423633))，这里就不赘述了**<br>:blush::blush:
+**至于rtthread的配置SPI的内容，网上都有教程，这里就不赘述了**<br>[RT_Thread使用SPI设备](https://blog.csdn.net/tigerots/article/details/107423633)
 **配置完RT Thread的SPI再移植本驱动即可**<br>
 
 **没有移植显示中文的内容，也没有中文字库，如有需要可自行移植添加**<br>
