@@ -5,7 +5,7 @@
 ---
 **这是基于RT-Thread驱动ST7735S 的驱动**<br>
 **由于发现找不到现成的基于rt thread的ST7735S的驱动，所以自己参考网上的各种示例写了一个.**<br>
-**用的开发板是立创的STM32F407VET6天空星青春版:point_right:[官方主页](https://item.szlcsc.com/23849165.html?kw=%E5%A4%A9%E7%A9%BA%E6%98%9F&fromZone=s)**
+**用的开发板是立创的STM32F407VET6天空星青春版[官方主页](https://item.szlcsc.com/23849165.html?kw=%E5%A4%A9%E7%A9%BA%E6%98%9F&fromZone=s)**:point_right::point_right:
 ## 1. 硬件参数
 - **型号: ST7735S**<br>
 - **尺寸: 1.8寸**<br>
@@ -55,8 +55,8 @@ int main(void)
 ```
 ---
 ## 4. 补充
-**至于rtthread的配置SPI的内容，网上都有教程:point_right:[RT_Thread使用SPI设备]([https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA](https://blog.csdn.net/tigerots/article/details/107423633))，这里就不赘述了:blush::blush:**<br>
-**配置完RT Thread的SPI再移植本驱动即可.**<br>
+**至于rtthread的配置SPI的内容，网上都有教程[RT_Thread使用SPI设备]([https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA](https://blog.csdn.net/tigerots/article/details/107423633))，这里就不赘述了**<br>:blush::blush:
+**配置完RT Thread的SPI再移植本驱动即可**<br>
 
 **没有移植显示中文的内容，也没有中文字库，如有需要可自行移植添加**<br>
 
