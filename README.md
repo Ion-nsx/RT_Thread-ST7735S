@@ -5,7 +5,7 @@
 ---
 **这是基于RT-Thread驱动ST7735S 的驱动**<br>
 **由于发现找不到现成的基于rt thread的ST7735S的驱动，所以自己参考网上的各种示例写了一个.**<br>
-**用的开发板是立创的STM32F407VET6天空星青春版[官方主页](https://item.szlcsc.com/23849165.html?kw=%E5%A4%A9%E7%A9%BA%E6%98%9F&fromZone=s)**:point_right::point_right:
+**用的开发板是立创的STM32F407VET6天空星青春版**:point_right::point_right:[官方主页](https://item.szlcsc.com/23849165.html?kw=%E5%A4%A9%E7%A9%BA%E6%98%9F&fromZone=s)
 ## 1. 硬件参数
 - **型号: ST7735S**<br>
 - **尺寸: 1.8寸**<br>
