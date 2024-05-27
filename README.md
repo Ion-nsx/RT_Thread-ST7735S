@@ -55,7 +55,7 @@ int main(void)
 ```
 ---
 ## 4. 补充
-**至于rtthread的配置SPI的内容，网上都有教程:point_right:[RT_Thread使用SPI设备](https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA)，这里就不赘述了:blush::blush:**<br>
+**至于rtthread的配置SPI的内容，网上都有教程:point_right:[RT_Thread使用SPI设备]([https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA](https://blog.csdn.net/tigerots/article/details/107423633))，这里就不赘述了:blush::blush:**<br>
 **配置完RT Thread的SPI再移植本驱动即可.**<br>
 
 **没有移植显示中文的内容，也没有中文字库，如有需要可自行移植添加**<br>
