@@ -53,6 +53,8 @@ int main(void)
     return RT_EOK;
 }
 ```
+### 3.4 **将文件夹添加进项目的编译包含目录中**:point_down:
+![这是图片](img/include.png "添加编译包含目录")
 ---
 ## 4. 补充
 **至于RT Thread的配置SPI的内容，网上都有教程[RT_Thread使用SPI设备](https://blog.csdn.net/tigerots/article/details/107423633)，这里就不赘述了**<br>
