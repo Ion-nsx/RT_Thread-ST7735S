@@ -35,7 +35,7 @@
 #define ST7735S_CS_PIN    GET_PIN(B, 12)       /*使能引脚*/
 #define ST7735S_BLK_PIN   GET_PIN(A,4)         /*背光引脚*/
 ```
-### 3.2 **在st7735s_device.c中修改DC引脚配置**:point_down:
+### 3.2 **在st7735s_device.c中修改CS引脚配置**:point_down:
 ```c
 rt_err_t st7735s_device_init(const char *spi_dev_name) {
 //将引脚修改成你定义的CS片选引脚,例如在此处是PB12
