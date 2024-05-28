@@ -38,7 +38,7 @@
 ### 3.2 **在st7735s_device.c中修改DC引脚配置**:point_down:
 ```c
 rt_err_t st7735s_device_init(const char *spi_dev_name) {
-//将引脚修改成你定义的DC引脚
+//将引脚修改成你定义的CS片选引脚,例如在此处是PB12
 rt_hw_spi_device_attach(ST7735S_SPI_BUS, ST7735S_SPI_DEVICE_NAME, GPIOB, GPIO_PIN_12);
 
 }
