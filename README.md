@@ -56,9 +56,9 @@ int main(void)
 ---
 ## 4. 补充
 **至于RT Thread的配置SPI的内容，网上都有教程，这里就不赘述了**<br>[RT_Thread使用SPI设备](https://blog.csdn.net/tigerots/article/details/107423633)
-***<font color="Red">配置完RT Thread的SPI再移植本驱动即可</font>***<br>
+***配置完RT Thread的SPI再移植本驱动即可***{: style="color: red"}<br>
 
 **没有移植显示中文的内容，也没有中文字库，如有需要可自行移植添加**<br>
 
-***如有错误欢迎指正，本人也是在网上各种例程中东拼西凑出来的:satisfied::satisfied:，所以代码可能不是很优雅，但是能跑通，希望对大家有所帮助***
+***如有错误欢迎指正，本人也是在网上各种例程中东拼西凑出来的，所以代码可能不是很优雅，但是能跑通，希望对大家有所帮助***:satisfied::satisfied:
 >>>>>>> 2b36641 (First)
