@@ -49,7 +49,7 @@ rt_hw_spi_device_attach(ST7735S_SPI_BUS, ST7735S_SPI_DEVICE_NAME, GPIOB, GPIO_PI
 int main(void)
 {
     LCD_Init(); //LCD初始化
-    LCD_ShowString(10, 10, 128, 160, 12, "ST7735&RTTHREAD", BLACK, WHITE)
+    LCD_ShowString(10, 10, 128, 160, 12, "ST7735&RTTHREAD", BLACK, WHITE);
     return RT_EOK;
 }
 ```
