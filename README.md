@@ -3,7 +3,7 @@
 
 # 基于RT-Thread 驱动ST7735S 1.8寸TFT 显示屏
 ---
-**这是基于RT-Thread驱动ST7735S 的驱动**<br>
+**这是基于RT-Thread 的ST7735S显示屏驱动**<br>
 **由于发现找不到现成的基于rt thread的ST7735S的驱动，所以自己参考网上的各种示例写了一个.**<br>
 **用的开发板是立创的STM32F407VET6天空星青春版**:point_right::point_right:[官方主页](https://item.szlcsc.com/23849165.html?kw=%E5%A4%A9%E7%A9%BA%E6%98%9F&fromZone=s)
 ## 1. 硬件参数
@@ -55,10 +55,10 @@ int main(void)
 ```
 ---
 ## 4. 补充
-**至于rtthread的配置SPI的内容，网上都有教程，这里就不赘述了**<br>[RT_Thread使用SPI设备](https://blog.csdn.net/tigerots/article/details/107423633)
-**配置完RT Thread的SPI再移植本驱动即可**<br>
+**至于RT Thread的配置SPI的内容，网上都有教程，这里就不赘述了**<br>[RT_Thread使用SPI设备](https://blog.csdn.net/tigerots/article/details/107423633)
+***<font color="Red">配置完RT Thread的SPI再移植本驱动即可</font>***<br>
 
 **没有移植显示中文的内容，也没有中文字库，如有需要可自行移植添加**<br>
 
-***如有错误欢迎指正，本人也是新手在网上各种例程中东拼西凑出来的，所以代码可能不是很优雅:sob::sob:，但是能跑通，希望对大家有所帮助。***
+***如有错误欢迎指正，本人也是在网上各种例程中东拼西凑出来的:satisfied::satisfied:，所以代码可能不是很优雅，但是能跑通，希望对大家有所帮助***
 >>>>>>> 2b36641 (First)
